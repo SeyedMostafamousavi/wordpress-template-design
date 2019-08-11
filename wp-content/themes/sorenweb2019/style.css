@@ -1,0 +1,113 @@
+/*
+Theme Name: sorenweb2019
+Author: SeyedMostafaMousavi
+Description: first theme from sorenweb
+Version: 1.0
+License: GNU General Public License
+License URI: license.txt
+Text Domain: msorenweb
+Domain Path: /languages/
+Tags: 
+*/
+
+
+/* .bd-placeholder-img {
+font-size: 1.125rem;
+text-anchor: middle;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+@media (min-width: 768px) {
+.bd-placeholder-img-lg {
+    font-size: 3.5rem;
+}
+} */
+
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat|Open+Sans|Oswald|Pacifico|Roboto+Condensed&display=swap');
+
+.admin-bar .fixed-top{
+    margin-top: 2em;
+}
+
+
+.btn{
+
+    border-radius: 10px 0px 10px 10px;
+
+}
+
+.jumbotron .container h1{
+  font-family: 'Pacifico';
+}
+
+
+.sub-menu{
+    display: none;
+    position: absolute;
+    padding: 10px 15px;
+    width: 200px;
+    background:#343A40;
+    border-radius: 10px;
+    left:13.2%;
+}
+
+@media screen and (max-width: 992px){
+    .sub-menu{
+        padding: 10px 15px;
+        position:absolute;
+        left:22%;
+        top:30%;
+        width: 200px;
+        background:rgb(71, 79, 87);
+    }
+    
+}
+
+li:hover .sub-menu{
+    display: block;
+}
+
+.menu-item{
+    margin-top: .6em;
+}
+
+
+.sub-menu li{
+    margin-bottom: .7em;
+    margin-top: .7em;
+    list-style: none;
+}
+
+
+.sub-menu a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.sub-menu a:hover{
+    color: rgb(71, 151, 255);
+}
+
+
+.menu-item{
+    padding-right:.3em;
+    padding-left: 2em; 
+    margin-bottom: .6em;
+}
+
+.menu-item a{
+   color: whitesmoke;
+    text-decoration: none;
+}
+
+.menu-item a:hover{
+    color: rgb(71, 151, 255);
+}
+
+.current-menu-item a{
+    color: rgb(108, 255, 71);
+}
