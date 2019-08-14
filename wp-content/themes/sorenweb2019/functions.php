@@ -45,7 +45,7 @@ function create_widget($name , $id , $description){
             'name' => __( $name ),
             'id' => $id,
             'description' => __($description),
-            'before_title' => '<h2 class = "text-center">',
+            'before_title' => '<h2 class = "text-center p-3">',
             'after_title' => '</h2>'
         ));
 }
