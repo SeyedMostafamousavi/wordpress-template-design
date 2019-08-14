@@ -41,17 +41,13 @@ add_action('init' , 'register_theme_menus');
 
 function create_widget($name , $id , $description){
 
-    register_sidebar(
-        array(
+    register_sidebar(array(
             'name' => __( $name ),
             'id' => $id,
             'description' => __($description),
-            'befor_widget' => '<div class="widget">',
-            'after_widget' => '</div>',
-            'before_title' => '<h3>',
-            'after_title' => '</h3>',
-        )
-        );
+            'before_title' => '<h2 class = "text-center">',
+            'after_title' => '</h2>'
+        ));
 }
 
 create_widget('front page left' , 'front-left' , 'this widget shows on the left side');
